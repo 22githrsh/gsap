@@ -14,6 +14,16 @@ var tl = gsap.timeline({
     scrub:true
   }
 })
-tl.to(".page img",{
+tl
+.to(".image0",{
+    left:"50%"
+})
+.to(".image1",{
+    left:"50%"
+})
+.to(".image2",{
+    left:"50%"
+})
+.to(".image3",{
     left:"50%"
 })

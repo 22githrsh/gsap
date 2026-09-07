@@ -11,10 +11,11 @@ html, body {
 .page{
   height: 100vh;
   width: 100%;
-  background-color: red;
+  background-color: #393939;
   display: flex;
   align-items: center;
   justify-content: start;
+  gap: 20px;
 }
 .page img{
 position: absolute;
@@ -22,6 +23,14 @@ height: 700px;
 left: -50%;
 
 }
+
+.line{
+  height: 70px;
+  width: 300px;
+  background-color: #fafafa;
+  flex-shrink: 0;
+}
+
 .page1{
   height: 100vh;
   width: 100%;
@@ -29,4 +38,10 @@ left: -50%;
   display: flex;
   align-items: center;
   justify-content: start;
+}
+.image0{
+position: absolute;
+height: 700px;
+left: -50%;
+
 }
