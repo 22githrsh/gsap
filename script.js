@@ -11,16 +11,16 @@ var tl = gsap.timeline({
     end:"50% top",
     pin:true,
     markers:true,
-    scrub:true
+    scrub:2
   }
 })
 tl
 .to(".image0",{
     left:"50%"
-})
+},"0.5")
 .to(".image1",{
     left:"50%"
-})
+},"0.75")
 .to(".image2",{
     left:"50%"
 })
